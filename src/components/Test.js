@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { SpinWheel } from "react-color-spin-wheel";
-import { GeoJsonLayer, MapContainer } from "react-openlayers7";
 
 const wheelColors = [
   "red",
@@ -22,15 +21,6 @@ export default function Test({ children, color }) {
   };
 
   return (
-    // <div>
-    //   <MapContainer
-    //     center={[126.840884, 35.190816]}
-    //     width="100%"
-    //     height="500px"
-    //   >
-    //     {/* <GeoJsonLayer geoJson={geoJsonSample} /> */}
-    //   </MapContainer>
-    // </div>
     <SpinWheel
       colors={wheelColors}
       lineWeight={lineWeight}
