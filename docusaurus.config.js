@@ -67,6 +67,13 @@ const config = {
       // Replace with your project's social card
       navbar: {
         title: "react-color-spin-wheel",
+        items: [
+          {
+            href: "https://github.com/365support/react-color-spin-wheel",
+            label: "GitHub",
+            position: "right",
+          },
+        ],
       },
       footer: {
         style: "dark",
